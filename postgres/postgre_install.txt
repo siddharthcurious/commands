@@ -1,0 +1,22 @@
+sudo apt update
+sudo apt install postgresql postgresql-contrib
+
+sudo -i -u postgres
+psql
+
+or 
+
+sudo -u postgres psql
+
+# Create new Role
+
+sudo -u postgres
+createuser --interactive
+
+or 
+
+sudo -u postgres createuser --interactive
+
+
+
+
